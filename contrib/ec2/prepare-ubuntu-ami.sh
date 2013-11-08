@@ -39,7 +39,7 @@ apt-get update
 apt-get dist-upgrade -yq
 
 # install required packages
-apt-get install lxc-docker-0.6.4 curl git make python-setuptools python-pip -yq
+apt-get install lxc-docker-0.6.6 curl git make python-setuptools python-pip -yq
 
 # create buildstep docker image
 git clone -b deis https://github.com/opdemand/buildstep.git
